@@ -1,0 +1,9 @@
+,id,image,path,label,slabel,kfold
+0,testBCCCase676BCCPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images/test/BCC/Case676BCCPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/BCC,1
+1,testBENO889Condolyma.jpg,E:/git_tor/skin_cancer_x400/Images/test/BENO/889Condolyma.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/BENO,1
+2,testMelanosis105melanosis.jpg,E:/git_tor/skin_cancer_x400/Images/test/Melanosis/105melanosis.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/Melanosis,1
+3,testBENO453Condolyma.jpg,E:/git_tor/skin_cancer_x400/Images/test/BENO/453Condolyma.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/BENO,1
+4,testBCCCase805BCCPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images/test/BCC/Case805BCCPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/BCC,1
+5,testNV29Case107NVPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images/test/NV/29Case107NVPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/NV,1
+6,testMelanosis110melanosis.jpg,E:/git_tor/skin_cancer_x400/Images/test/Melanosis/110melanosis.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/Melanosis,1
+7,testNV4Case91NVPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images/test/NV/4Case91NVPerrotSamy.jpg,E:/git_tor/skin_cancer_x400/Images,0,test/NV,1
