@@ -1,6 +1,6 @@
 
 ## Table of Contents
-
+- [Introduction](#Introduction)
 - [Medical Image Segmentation with EfficientNet and MONAI](#medical-image-segmentation-with-efficientnet-and-monai)
   - [Prerequisites](#prerequisites)
   - [Dataset](#dataset)
@@ -15,6 +15,15 @@
   - [Training Loop](#training-loop)
   - [Requirements](#requirements)
 
+# Introduction
+
+This repository contains two scripts for different tasks in deep learning: one for medical image segmentation using the EfficientNet architecture with MONAI, and another for training a Generative Adversarial Network (GAN) using PyTorch. Each script serves a specific purpose and is explained in detail below.
+
+The first script, `train.py`, focuses on training a medical image segmentation model using the EfficientNet architecture and the MONAI library. The model is designed for binary segmentation and aims to identify specific structures or regions of interest in medical images. The script includes data preparation, model training, and inference steps.
+
+The second script, `trainGAN.py`, is dedicated to training a GAN. It comprises the training loop for both the Generator (netG) and the Discriminator (netD). The script provides an introduction to the GAN architecture, model initialization, optimizers, and the training loop. It's designed for users interested in training GANs from scratch.
+
+Now, let's dive into the details of each script in the following sections:
 
 # Medical Image Segmentation with EfficientNet and MONAI
 
