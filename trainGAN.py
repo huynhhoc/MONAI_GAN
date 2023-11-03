@@ -58,7 +58,7 @@ if __name__ == '__main__':
         # clear the gradient
         opt_D.zero_grad() # set the gradients to 0 at start of each loop because gradients are accumulated on subsequent backward passes
         # compute the D model output
-        yhat = netD(images.to(device)) # view(-1) reshapes a 4-d tensor of shape (2,1,1,1) to 1-d tensor with 2 values only
+        yhat = netD(images.to(device))
         # specify target labels or true labels
         target = torch.ones(len(labels), 1, dtype=torch.float, device=device)  # Add a dimension here
 
@@ -76,7 +76,7 @@ if __name__ == '__main__':
         fake_img = netG(noise) 
         print("fake_img: ", fake_img.shape)
         # compute D model output on fake images
-        yhat = netD(fake_img.to(device)) # .cuda() is essential because our input i.e. fake_img is on gpu but model isnt (runtimeError thrown); detach is imp: Basically, only track steps on your generator optimizer when training the generator, NOT the discriminator. 
+        yhat = netD(fake_img.to(device)) # is essential because our input i.e. fake_img is on gpu but model isnt (runtimeError thrown); detach is imp: Basically, only track steps on your generator optimizer when training the generator, NOT the discriminator. 
         # specify target labels
         target = torch.zeros(len(labels),1, dtype=torch.float, device=device)
         # calculate loss
