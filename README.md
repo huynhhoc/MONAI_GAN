@@ -1,14 +1,13 @@
-# Medical Image Segmentation with EfficientNet and MONAI
-
-This repository contains code for training a medical image segmentation model using the EfficientNet architecture and the MONAI library. The model is trained for binary segmentation, with the goal of segmenting specific structures or regions of interest in medical images.
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Dataset](#dataset)
-- [Usage](#usage)
-- [Training](#training)
-- [Inference](#inference)
+- [Medical Image Segmentation with EfficientNet and MONAI](#Medical Image Segmentation with EfficientNet and MONAI)
+- [Generative Adversarial Network (GAN) Training Script](## Generative Adversarial Network (GAN) Training Script)
+
+
+# Medical Image Segmentation with EfficientNet and MONAI
+
+This repository contains code for training a medical image segmentation model using the EfficientNet architecture and the MONAI library. The model is trained for binary segmentation, with the goal of segmenting specific structures or regions of interest in medical images.
 
 ## Prerequisites
 
