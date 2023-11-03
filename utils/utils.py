@@ -12,7 +12,10 @@ import torch.nn as nn
 class Generator(nn.Module):
     def __init__(self):
         super().__init__()
- 
+        
+        # The Generator class is responsible for creating synthetic images that resemble real data.
+        # It does this by progressively increasing the spatial dimensions using ConvTranspose2d layers.
+
         self.gen = nn.Sequential(
             # Initial layer to increase spatial dimensions
             nn.ConvTranspose2d(in_channels=100, out_channels=512, kernel_size=4, stride=4, padding=0, bias=False),  # Increase stride
@@ -42,6 +45,15 @@ class Generator(nn.Module):
         )
  
     def forward(self, input):
+        """
+        Forward pass of the generator.
+
+        Args:
+            input (torch.Tensor): The input noise with shape (batch_size, 100, 1, 1).
+
+        Returns:
+            torch.Tensor: The generated synthetic images with shape (batch_size, 3, 512, 512).
+        """
         return self.gen(input)
 
 class Discriminator(Module):
@@ -68,6 +80,16 @@ class Discriminator(Module):
         self.sigmoid = Sigmoid()
 
     def forward(self, input):
+        """
+        Forward pass of the discriminator.
+
+        Args:
+            input (torch.Tensor): The input data with shape (batch_size, num_channels, height, width).
+
+        Returns:
+            torch.Tensor: The output prediction with shape (batch_size, 1). 
+            This represents the discriminator's confidence in the input data being real (closer to 1) or fake (closer to 0).
+        """
         features = self.dis(input)
         features = features.view(input.size(0), -1)  # Flatten the features
         output = self.fc(features)
