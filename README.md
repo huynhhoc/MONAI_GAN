@@ -104,6 +104,7 @@ This script is used to train a Generative Adversarial Network (GAN) using PyTorc
 ## GAN Architecture
 
 The GAN architecture consists of two main components: the Generator and the Discriminator.
+![GAN Model](images/ganmodel.jpg)
 
 ### Generator (netG)
 
