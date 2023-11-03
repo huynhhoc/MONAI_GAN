@@ -1,8 +1,19 @@
 
 ## Table of Contents
 
-- [Medical Image Segmentation with EfficientNet and MONAI](#Medical Image Segmentation with EfficientNet and MONAI)
-- [Generative Adversarial Network (GAN) Training Script](## Generative Adversarial Network (GAN) Training Script)
+- [Medical Image Segmentation with EfficientNet and MONAI](#medical-image-segmentation-with-efficientnet-and-monai)
+  - [Prerequisites](#prerequisites)
+  - [Dataset](#dataset)
+  - [Data Preparation](#data-preparation)
+  - [Training](#training)
+  - [Inference](#inference)
+- [Generative Adversarial Network (GAN) Training Script](#generative-adversarial-network-gan-training-script)
+  - [GAN Architecture](#gan-architecture)
+  - [Model Initialization](#model-initialization)
+  - [Optimizers](#optimizers)
+  - [Loss Function](#loss-function)
+  - [Training Loop](#training-loop)
+  - [Requirements](#requirements)
 
 
 # Medical Image Segmentation with EfficientNet and MONAI
