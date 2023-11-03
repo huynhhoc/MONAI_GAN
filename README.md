@@ -7,7 +7,7 @@
   - [Data Preparation](#data-preparation)
   - [Training](#training)
   - [Inference](#inference)
-- [Generative Adversarial Network (GAN) Training Script](#generative-adversarial-network-gan-training-script)
+- [Generative Adversarial Network (GAN)](#generative-adversarial-network-gan)
   - [GAN Architecture](#gan-architecture)
   - [Model Initialization](#model-initialization)
   - [Optimizers](#optimizers)
@@ -93,7 +93,7 @@ You can customize various training settings in the script, such as batch size, l
 
 Once the model is trained, you can perform inference on new medical images. Modify the script as needed for your specific inference requirements.
 
-# Generative Adversarial Network (GAN) Training Script
+# Generative Adversarial Network (GAN)
 This script is used to train a Generative Adversarial Network (GAN) using PyTorch. It includes the training loop for both the Generator (netG) and the Discriminator (netD).
 
 ```
